@@ -1,0 +1,74 @@
+.todo-input{
+    width:95%;
+    padding: 2%;
+    text-align: center;
+}
+body {
+    background-image:  url('https://www.lifewire.com/thmb/BqVmccXOF-S9bIU-ifvkj8eWTzY=/1500x893/filters:fill(auto,1)/GettyImages-486840926-424eecdec9d94ca2a12401816cb2ab12.jpg');
+}
+.todo-input>div>input {
+    width : 30%;
+    font-size: 21px;
+    /* padding: 1%; */
+    text-align: center;
+    border-radius: 10px;
+}
+.todo-input>div>button {
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 21px;
+    border: none;
+    margin-top: 1%;
+}
+.todo-input>div>button:hover,.page_div>button:last-child:hover,.page_div>button:first-child:hover {
+    color: white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: black;
+}
+.output-container {
+    text-align: center;
+    width: 100%;
+    
+}
+.output-container>div{
+    display: flex;
+    width : 50%;
+    font-size : 21px;
+    font-weight :500;
+    background-image: linear-gradient(rgb(152, 237, 248),rgb(255, 255, 255),rgb(133, 249, 253));
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+.output-container>div>p:first-child {
+    width : 80%;
+    padding: 0% 2%;
+    text-align: left;
+}
+.output-container>div>p:last-child {
+    width : 15%;
+    text-align: right;
+}
+.page_div {
+    width : 50%;
+    margin: auto;
+    margin-top: 2%;
+    display : flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.page_div>button:first-child {
+    margin-left: 2%;
+    border : none;
+    font-size: 21px;
+    padding: 2%;
+    border-radius: 12px;
+}
+.page_div>button:last-child {
+    margin-right: 2%;
+    border-radius: 12px;
+    font-size: 21px;
+    padding: 2%;
+    border : none;
+}

@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "task": "add",
+      "status": false,
+      "id": "229bcb3c-7ce6-45d4-a9e7-42208e14c5bd"
+    },
+    {
+      "task": "add2",
+      "status": false,
+      "id": "2c7866da-0fae-4247-99fb-4ec7f67a63bd"
+    },
+    {
+      "task": "add23",
+      "status": false,
+      "id": "fb768e3d-ece0-454b-9902-c6763ea06d09"
+    },
+    {
+      "task": "add234",
+      "status": false,
+      "id": "b4d4285c-b730-4602-be3f-f0dc9f601ccc"
+    },
+    {
+      "task": "add2345",
+      "status": false,
+      "id": "056cb5ea-aa00-4898-b823-5d52cbd8969c"
+    },
+    {
+      "task": "add23456",
+      "status": false,
+      "id": "dc82fecd-4eae-4b5a-888f-50ea44227ded"
+    },
+    {
+      "task": "bhavesh",
+      "status": false,
+      "id": "475aab60-656a-4c74-9e4e-0b32f14e4a82"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
